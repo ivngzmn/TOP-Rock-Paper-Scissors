@@ -396,7 +396,7 @@ a:hover {
 @media (max-width: 568px) {
   .container {
     width: 380px;
-    height: 700px;
+    height: 650px;
   }
   .score h1 {
     font-size: 1.6em;
@@ -434,7 +434,7 @@ a:hover {
 @media (max-width: 450px) {
   .container {
     width: 340px;
-    height: 700px;
+    height: 600px;
   }
   .score h1 {
     font-size: 1.6em;
@@ -442,6 +442,9 @@ a:hover {
   .score p {
     font-size: 4.4em;
   }
+  .middle {
+    height: 300px;
+  } 
   .first h1 {
     font-size: 1.65em;
   }
@@ -471,7 +474,7 @@ a:hover {
 @media (max-width: 375px) {
   .container {
     width: 300px;
-    height: 600px;
+    height: 550px;
   }
   .score h1 {
     font-size: 1.5em; 
@@ -481,7 +484,7 @@ a:hover {
     font-size: 4.3em;
   }
   .middle {
-    height: 210px;
+    height: 250px;
   }
   .first {
   height: 250px;
@@ -492,7 +495,7 @@ a:hover {
   }
 
   .first button {
-    font-size: 1em;
+    font-size: .75em;
   }
   .handsContainer {
     height: 150px;
@@ -515,7 +518,7 @@ a:hover {
 @media (max-width: 360px) {
   .container {
     width: 300px;
-    height: 640px;
+    height: 550px;
   }
   .score h1 {
     font-size: 1.5em;    
@@ -524,7 +527,7 @@ a:hover {
     font-size: 4.3em;
   }
   .middle {
-    height: 210px;
+    height: 250px;
   }
   .first {
   height: 250px;
