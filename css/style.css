@@ -1,5 +1,5 @@
 * {
-  font-family: 'Indie Flower', cursive, sans-serif;
+  font-family: 'Indie Flower', sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -29,7 +29,7 @@ body {
   background: #1c1c1c;
   box-shadow: 15px 15px 15px #0c0c0c;
   border-radius: 2.5em;
-  
+
 }
 
 .adjustAudio {
@@ -39,7 +39,7 @@ body {
   font-size: 1em;
   margin: 0;
   padding-bottom: 4.5em;
-  
+
 }
 
 .top {
@@ -89,7 +89,7 @@ body {
   border: none;
   margin-top: 10px 10px 10px 10px;
   border-radius: 2em;
-  color:#DDD;
+  color: #DDD;
   font-size: 1.25em;
   transition: all 0.2s ease-in;
 }
@@ -97,7 +97,7 @@ body {
 .first button:hover {
   transition: all 0.2s ease-in;
   background: #24ac56;
-  color:#FFF;
+  color: #FFF;
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -143,7 +143,8 @@ img {
   width: 100%;
 }
 
-.bottom button, .resetGame button {
+.bottom button,
+.resetGame button {
   width: 120px;
   height: 45px;
   margin: 10px 8px 0 8px;
@@ -154,7 +155,8 @@ img {
   color: #d7d7d7;
 }
 
-.bottom button:hover, .resetGame button:hover {
+.bottom button:hover,
+.resetGame button:hover {
   background: #24ac56;
   color: #d7d7d7;
   cursor: pointer;
@@ -164,6 +166,7 @@ img {
 .resetGame {
   padding-top: 2em;
 }
+
 /* footer */
 a {
   text-decoration: none;
@@ -300,51 +303,67 @@ a:hover {
 }
 
 @media screen and (max-width: 896px) and (orientation: landscape) {
-  body, .container {
+
+  body,
+  .container {
     height: 720px;
   }
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .container {
     width: 500px;
     height: 700px;
   }
+
   .score h1 {
     font-size: 1.8em;
     position: relative;
     top: 35px;
   }
+
   .score p {
     font-size: 4.8em;
     position: relative;
     top: 35px;
   }
+
   .middle {
     height: 260px;
   }
+
   .first {
     height: 300px;
   }
+
   .first h1 {
     font-size: 1.9em;
-  };
+  }
+
+  ;
+
   .first button {
     font-size: 1.2em;
   }
+
   .handsContainer {
     height: 210px;
   }
-  .playerHand, .computerHand {
+
+  .playerHand,
+  .computerHand {
     width: 190px;
   }
+
   img {
     width: 165px;
   }
+
   .messageDisplay h1 {
     font-size: 1.9em;
   }
+
   .bottom {
     margin-top: 10px;
   }
@@ -355,46 +374,62 @@ a:hover {
     width: 420px;
     height: 700px;
   }
+
   .score {
     width: 150px;
   }
+
   .score h1 {
     font-size: 1.7em;
     position: relative;
     top: 35px;
   }
+
   .score p {
     font-size: 4.6em;
     position: relative;
     top: 35px;
   }
+
   .middle {
     height: 240px;
   }
+
   .first {
     height: 300px;
   }
+
   .first h1 {
     font-size: 1.8em;
-  };
+  }
+
+  ;
+
   .first button {
     font-size: 1.1em;
   }
+
   .handsContainer {
     height: 200px;
   }
-  .playerHand, .computerHand {
+
+  .playerHand,
+  .computerHand {
     width: 175px;
   }
+
   img {
     width: 150px;
   }
+
   .messageDisplay h1 {
     font-size: 1.75em;
   }
+
   .bottom {
     margin-top: 10px;
   }
+
   .bottom button {
     width: 100px;
     height: 40px;
@@ -406,35 +441,45 @@ a:hover {
     width: 380px;
     height: 650px;
   }
+
   .score h1 {
     font-size: 1.6em;
     position: relative;
     top: 35px;
   }
+
   .score p {
     font-size: 4.55em;
     position: relative;
     top: 35px;
   }
+
   .first h1 {
     font-size: 1.75em;
   }
+
   .first button {
     height: 40px;
     width: 140px;
   }
+
   .handsContainer {
     height: 190px;
   }
-  .playerHand, .computerHand {
+
+  .playerHand,
+  .computerHand {
     width: 160px;
   }
+
   img {
     width: 135px;
   }
+
   .messageDisplay h1 {
     font-size: 1.6em;
   }
+
   .bottom button {
     font-size: 1.05em;
     margin: 0 5px;
@@ -448,35 +493,45 @@ a:hover {
     width: 340px;
     height: 600px;
   }
+
   .score h1 {
     font-size: 1.6em;
     position: relative;
     top: 35px;
   }
+
   .score p {
     font-size: 4.4em;
     position: relative;
     top: 35px;
   }
+
   .middle {
     height: 300px;
-  } 
+  }
+
   .first h1 {
     font-size: 1.65em;
   }
+
   .first button {
     height: 40px;
     width: 135px;
   }
+
   .handsContainer {
     height: 190px;
   }
-  .playerHand, .computerHand {
+
+  .playerHand,
+  .computerHand {
     width: 150px;
   }
+
   img {
     width: 125px;
   }
+
   .bottom button {
     font-size: 1.05em;
     width: 88px;
@@ -492,23 +547,28 @@ a:hover {
     width: 300px;
     height: 550px;
   }
+
   .score h1 {
     position: relative;
     top: 35px;
-    font-size: 1.5em;   
+    font-size: 1.5em;
   }
+
   .score p {
     font-size: 4.3em;
     position: relative;
     top: 35px;
   }
+
   .middle {
     height: 250px;
   }
+
   .first {
     height: 250px;
     margin-top: 15px;
   }
+
   .first h1 {
     font-size: 1.6em;
   }
@@ -516,15 +576,20 @@ a:hover {
   .first button {
     font-size: .75em;
   }
+
   .handsContainer {
     height: 150px;
   }
-  .playerHand, .computerHand {
+
+  .playerHand,
+  .computerHand {
     width: 140px;
   }
+
   img {
     width: 115px;
   }
+
   .messageDisplay h1 {
     font-size: 1.5em;
   }
@@ -539,23 +604,28 @@ a:hover {
     width: 300px;
     height: 550px;
   }
+
   .score h1 {
     position: relative;
     top: 35px;
-    font-size: 1.5em;    
+    font-size: 1.5em;
   }
+
   .score p {
     font-size: 4.3em;
     position: relative;
     top: 35px;
   }
+
   .middle {
     height: 250px;
   }
+
   .first {
-  height: 250px;
-  margin-top: 15px;
+    height: 250px;
+    margin-top: 15px;
   }
+
   .first h1 {
     font-size: 1.6em;
   }
@@ -563,15 +633,20 @@ a:hover {
   .first button {
     font-size: 1em;
   }
+
   .handsContainer {
     height: 150px;
   }
-  .playerHand, .computerHand {
+
+  .playerHand,
+  .computerHand {
     width: 140px;
   }
+
   img {
     width: 115px;
   }
+
   .messageDisplay h1 {
     font-size: 1.5em;
   }
