@@ -168,9 +168,10 @@ img {
 }
 
 /* footer */
-a {
+a,
+p {
   text-decoration: none;
-  font-size: 4.5em;
+  font-size: 1.5em;
 }
 
 a:hover {
