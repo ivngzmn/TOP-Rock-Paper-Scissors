@@ -6,6 +6,7 @@
   color: #FFF;
 }
 
+
 body {
   display: flex;
   align-items: center;
@@ -17,6 +18,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+  box-shodow: 0 2rem 4rem #000;
+  min-height: 70vh;
 }
 
 .container {
@@ -168,10 +176,11 @@ img {
 }
 
 /* footer */
-a,
-p {
+footer {
   text-decoration: none;
   font-size: 1.5em;
+  position: sticky;
+  bottom: 0;
 }
 
 a:hover {
@@ -179,9 +188,9 @@ a:hover {
 }
 
 .gitHubLogo {
-  height: 1.5em;
-  width: 1.5em;
-  padding: 20px 20px 20px 20px;
+  height: 1em;
+  width: 1em;
+  padding: 10px 10px 10px 10px;
   background-color: #1c1c1c;
   border-radius: 20px;
 }

@@ -22,86 +22,92 @@
   </head>
 
   <body>
-    <div class="container">
+    <main>
+      <div class="container">
 
-      <!-- top display -->
-      <div class="top">
-        <div class="score">
-          <h1>Player 1</h1>
-          <p class='plScore'>0</p>
-        </div>
-        <div class="score">
-          <h1>VS</h1>
-        </div>
-        <div class="score">
-          <h1>Computer</h1>
-          <p class='comScore'>0</p>
-        </div>
-      </div>
-
-      <!-- middle display -->
-      <div class="middle">
-
-        <!-- display when loaded -->
-        <div class="first">
-          <h1>Rock Paper Scissors</h1>
-          <br>
-          <h1>Tournament</h1>
-          <button id="startBtn" class='start'>Start</button>
+        <!-- top display -->
+        <div class="top">
+          <div class="score">
+            <h1>Player 1</h1>
+            <p class='plScore'>0</p>
+          </div>
+          <div class="score">
+            <h1>VS</h1>
+          </div>
+          <div class="score">
+            <h1>Computer</h1>
+            <p class='comScore'>0</p>
+          </div>
         </div>
 
-        <!-- display when user starts to play -->
-        <div class='second'>
+        <!-- middle display -->
+        <div class="middle">
 
-          <!-- hands container -->
-          <div class="handsContainer">
-            <div class="playerHand">
-              <img class="player" src="libs/img/rock.png" alt="">
-            </div>
-            <div class="computerHand">
-              <img class="computer" src="libs/img/rock.png" alt="">
-            </div>
+          <!-- display when loaded -->
+          <div class="first">
+            <h1>Rock Paper Scissors</h1>
+            <br>
+            <h1>Tournament</h1>
+            <button id="startBtn" class='start'>Start</button>
           </div>
 
-          <!-- message area -->
-          <div class='messageDisplay'>
-            <h1>Choose Your Destiny</h1>
+          <!-- display when user starts to play -->
+          <div class='second'>
+
+            <!-- hands container -->
+            <div class="handsContainer">
+              <div class="playerHand">
+                <img class="player" src="libs/img/rock.png" alt="">
+              </div>
+              <div class="computerHand">
+                <img class="computer" src="libs/img/rock.png" alt="">
+              </div>
+            </div>
+
+            <!-- message area -->
+            <div class='messageDisplay'>
+              <h1>Choose Your Destiny</h1>
+            </div>
+
           </div>
 
         </div>
 
+        <!-- bottom display -->
+        <div class='bottom'>
+          <button id="btnChoice" class='btn rock'>Rock</button>
+          <button id="btnChoice" class='btn paper'>Paper</button>
+          <button id="btnChoice" class='btn scissors'>Scissors</button>
+        </div>
+
+        <!-- reset game -->
+        <div class='bottom resetGame'>
+          <button class="resetBtn" class='btn'>Play Again</button>
+        </div>
+
+
+        <!-- volume warning -->
+        <div class="adjustAudio">
+          <h2>Adjust Volume Before Playing 🔊</h2>
+        </div>
+
       </div>
 
-      <!-- bottom display -->
-      <div class='bottom'>
-        <button id="btnChoice" class='btn rock'>Rock</button>
-        <button id="btnChoice" class='btn paper'>Paper</button>
-        <button id="btnChoice" class='btn scissors'>Scissors</button>
-      </div>
 
-      <!-- reset game -->
-      <div class='bottom resetGame'>
-        <button class="resetBtn" class='btn'>Play Again</button>
-      </div>
+      <!-- audio -->
+      <audio data-key='intro' src="libs/audio/intro.mp3"></audio>
+      <audio data-key='score' src="libs/audio/score.mp3"></audio>
+      <audio data-key='shake' src="libs/audio/shake.mp3"></audio>
+      <audio data-key='tie' src="libs/audio/tie.mp3"></audio>
+      <audio data-key='win' src="libs/audio/win.mp3"></audio>
+      <audio data-key='lose' src="libs/audio/lose.mp3"></audio>
 
 
-      <!-- volume warning -->
-      <div class="adjustAudio">
-        <h2>Adjust Volume Before Playing 🔊</h2>
-      </div>
+      <script src='js/app.js'></script>
+    </main>
+  </body>
 
-    </div>
-
-
-    <!-- audio -->
-    <audio data-key='intro' src="libs/audio/intro.mp3"></audio>
-    <audio data-key='score' src="libs/audio/score.mp3"></audio>
-    <audio data-key='shake' src="libs/audio/shake.mp3"></audio>
-    <audio data-key='tie' src="libs/audio/tie.mp3"></audio>
-    <audio data-key='win' src="libs/audio/win.mp3"></audio>
-    <audio data-key='lose' src="libs/audio/lose.mp3"></audio>
-
-
+  <footer>
     <div class="footer">
       <span>
         <a target="_blank" rel="noopener noreferrer"
@@ -110,13 +116,10 @@
       </span>
       <div class="footer">
         <p>
-          Made with ❤️ by Ivan Guzman
+          Coded with ❤️ by Ivan Guzman
         </p>
       </div>
     </div>
-
-
-    <script src='js/app.js'></script>
-  </body>
+  </footer>
 
   </html>
